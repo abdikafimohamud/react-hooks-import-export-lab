@@ -1,4 +1,7 @@
 import React from "react";
+import About from "./About";   // Correct relative path: no need for './components/' 
+import Home from "./Home";     // Default import
+import NavBar from "./NavBar"; // Default import
 
 function App() {
   return (
@@ -10,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; // Default export
